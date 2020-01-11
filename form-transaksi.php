@@ -74,26 +74,24 @@
           <div class="row">
             <div class="col-6">
               
+               
                 <div class="form-group">
-                  <label for="exampleTglBerangkat">Tanggal keberangkatan</label>
-                  <input type="date" class="form-control" id="exampleTglBerangkat" name="tgl_berangkat">
-                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small> -->
+                  <label for="exampleTglBerangkat">Tanggal Berangkat</label>
+                  <input type="date" class="form-control" id="exampleTglBerangkat">
                 </div>
-                <div class="form-group">
-                  <label for="exampleTglPulang">Tanggal kepulangan</label>
+        <div class="form-group">
+                  <label for="exampleTglPulang">Tanggal Pulang</label>
                   <input type="date" class="form-control" id="exampleTglPulang">
                 </div>
         <div class="form-group">
-                  <label for="exampleJamBerangkat">Waktu keberangkatan (WIB)</label>
+                  <label for="exampleJamBerangkat">Jam Berangkat</label>
                   <input type="time" class="form-control" id="exampleJamBerangkat">
                 </div>
-        <div class="form-group">
-                  <label for="exampleJumlahOrang">Jumlah Orang</label>
-                  <input type="text" class="form-control" id="exampleJumlahOrang">
-                </div>
-                
-                
+                   
+                <div class="form-group">
+                  <label for="exampleNamaKendaraan">Nama Kendaraan</label>
+                  <input type="text" class="form-control" id="exampleNamaKendaraan">
+                </div>  
              
             </div>
             <div class="col-6">
@@ -102,28 +100,28 @@
                   <table class="table">
                     <tbody>
                       <tr class="btn-warning">
-                        <th>Jumlah Orang</th>
-                        <th>Harga</th>
+                        <th>Nama Kendaraan</th>
+                        <th></th>
                       </tr>
                       <tr>
-                        <td class="td-padding">6 Orang</td>
+                        <td class="td-padding">Avanza</td>
                         <td class="td-padding">Rp.600.000</td>
                       </tr>
                       <tr>
-                        <td class="td-padding">5 Orang</td>
-                        <td class="td-padding">Rp.700.000</td>
+                        <td class="td-padding">Pajero</td>
+                        <td class="td-padding">Rp.1.000.000</td>
                       </tr>
                       <tr>
-                        <td class="td-padding">4 Orang</td>
+                        <td class="td-padding">Jeep</td>
                         <td class="td-padding">Rp.800.000</td>
                       </tr>
                       <tr>
-                        <td class="td-padding">3 orang</td>
+                        <td class="td-padding">Rush</td>
                         <td class="td-padding">Rp.900.000</td>
                       </tr>
                       <tr>
-                        <td class="td-padding">2 orang</td>
-                        <td class="td-padding">Rp.1.000.000</td>
+                        <td class="td-padding">Terios</td>
+                        <td class="td-padding">Rp. 650.000</td>
                       </tr>
                     </tbody>
                   </table>
@@ -143,25 +141,25 @@
   <div class="row">
             <div class="col-6">
               <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1"></label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
-                </div>
+              <div class="form-group">
+                  <label for="exampleJumOrang">Jumlah Orang</label>
+                  <input type="text" class="form-control" id="exampleJumOrang">
+                </div> 
                 <div class="form-group">
                   <label for="exampleInputPassword1">Tanggal keberangkatan</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="date" class="form-control" id="exampleInputPassword1">
                 </div>
         <div class="form-group">
                   <label for="exampleInputPassword1">Tanggal kepulangan</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="date" class="form-control" id="exampleInputPassword1">
                 </div>
             </form>
         </div>
-        
+   
     <div class="col-6">
+
           <table class="table">
+          
             <tbody>
               <tr class="btn-warning">
                 <th>Jumlah Orang</th>
@@ -187,25 +185,29 @@
                 <td class="td-padding">2 orang</td>
                 <td class="td-padding">Rp.1.000.000</td>
               </tr>
+
+              
             </tbody>
+            
           </table>
+     
+  </div> 
       </div>
       
+  
       
           <hr>
-         
+          
 
         </div>
       </div> <!-- end container-fluid -->
     </div> <!-- end Tab2 content -->
-  
- 
-  <div style="overflow:auto;">
+    
+    <div style="overflow:auto;">
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
       <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
     </div>
-  </div>
   <!-- Circles which indicates the steps of the form: -->
   <div style="text-align:center;margin-top:40px;">
     <span class="step"></span>
